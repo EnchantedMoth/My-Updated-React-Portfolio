@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import '../App.css'
 import './navTabs.css'
-
+import meAndTanji from '../assets/images/MeAndTanji.png'
 
 function Navigation() {
     const currentPage = useLocation().pathname;
@@ -49,7 +49,10 @@ function Navigation() {
 function Nav(){
     return (
         <header className='header-custom'>
-            <h1 className='text-light my-font my-name'>Timothy Lewis</h1>
+            <div className='text-center'>
+                <h1 className='text-light my-font my-name'>Timothy Lewis</h1>
+                <img className='my-picture' src={meAndTanji} alt="Me and my cat Tanjiro" />
+            </div>
             <Navigation />
         </header>
     )

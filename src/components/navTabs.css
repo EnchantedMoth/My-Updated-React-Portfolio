@@ -10,5 +10,15 @@
 
 .my-name{
     margin-left: 32px;
+    padding-top: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.my-picture{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
     margin-top: 16px;
 }

@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Nav from './components/NavTabs';
-//add import for header and footer when added
+import Footer from './components/Footer'
 import './index.css';
 import background from './assets/images/woodbackground.jpg'
 
@@ -11,6 +11,7 @@ function App() {
         <main className="container-fluid" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', height: '100vh'  }}>
           <Outlet />
         </main>
+        <Footer />
       </>
     );
   }
