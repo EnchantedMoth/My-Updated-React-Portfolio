@@ -32,11 +32,11 @@ const projectInfo = [
 export default function Portfolio() {
     return(
     <div className="container pt-3">
-      <h2>Portfolio</h2>
+      <h2 className='text-light my-font'>Portfolio</h2>
       <div className="row">
         {projectInfo.map((projectInfo, index) => (
           <div key={index} className="col-lg-4 col-md-6 mb-3">
-            <div className="card position-relative">
+            <div className="card position-relative card-custom">
                 <img
                   className="card-img-top"
                   src={projectInfo.image}

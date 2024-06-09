@@ -6,9 +6,9 @@ import './navTabs.css'
 function Navigation() {
     const currentPage = useLocation().pathname;
     return (
-        <nav id='custom-nav'>
+        <nav id='custom-nav' className='my-font'>
             <ul className='nav justify-content-end'>
-                <li id='custom-nav' className='nav-item'>
+                <li id='custom-nav' className='nav-item custom-nav'>
                     <Link
                         to='/'
                         className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
@@ -48,8 +48,8 @@ function Navigation() {
 
 function Nav(){
     return (
-        <header>
-            <h2>Timothy Lewis</h2>
+        <header className='header-custom'>
+            <h1 className='text-light my-font my-name'>Timothy Lewis</h1>
             <Navigation />
         </header>
     )
