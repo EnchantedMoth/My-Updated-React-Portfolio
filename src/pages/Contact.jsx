@@ -29,7 +29,7 @@ export default function ContactForm() {
 
   return (
     <div className="container">
-      <h2>Contact Me</h2>
+      <h2 className='my-font text-light'>Contact Me</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name:</label>

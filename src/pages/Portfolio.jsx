@@ -26,6 +26,13 @@ const projectInfo = [
         link: 'https://drive.google.com/file/d/1kyHHPwqVtPJzmTBATDAUHqRn1i8a2IKo/view',
         githubLink: 'https://github.com/EnchantedMoth/ORM-E-Commerce?tab=readme-ov-file',
         image: computer
+    },
+    {
+        title: 'Book Search Rebuild',
+        text: 'Changed a functioning RESTful API to GraphQL',
+        link: 'https://book-search-rebuild.onrender.com/',
+        githubLink: 'https://github.com/EnchantedMoth/Book-Search-Rebuild?tab=readme-ov-file',
+        image: code
     }
 ]
 
